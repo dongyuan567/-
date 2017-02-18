@@ -1,0 +1,128 @@
+body, html {  height: 100%;  font-size: 62.5%; font-size: 14px;  }
+body, html, p, h2, h3, h4 {  margin: 0;  padding: 0;  }
+ul {  margin: 0;  padding: 0;  list-style: none;  }
+h2 {  font-size: 24px;  color: #333;  font-family: Microsoft YaHei;  margin-bottom: 40px;  margin-top: 60px;  }
+a { text-decoration: none;  }
+.img-qq {margin-top: 0;}
+#allmap {  width: 100%;  height: 400px;  overflow: hidden;  margin: 0;  font-family: "微软雅黑";  }
+.markList {  position: relative;  overflow: hidden;  }
+.markList:hover .mark {  top: 0;  }
+.mark {  height: 100%;  position: absolute;  width: 100%;  top: -200%;  background: rgba(0, 0, 0, 0.5);  transition: top 1s;  color: #fff;  text-align: center;  line-height: 100%;  }
+.mark p {  padding-top: 50%;  color: #fff;  text-align: center;  }
+.markBox {  position: relative;  }
+.markBox img{ width: 100%;}
+.spanA {  overflow: hidden;  width: 100%;  height: auto;  }
+.spanA img:hover {  transform: scale(1.3);  transition: 0.5s ease;  }
+
+/*left  over*/
+.carousel-indicators {  position: absolute;  bottom: 10px;  left: 70%;  }
+.carousel-indicators li {  margin-left: 20px;  }
+.carousel-control.left {  padding-top: -200px  }
+.carousel-control.right {  padding-top: -200px  }
+#myCarousel {  padding-top: -200px;  }
+.carousel-indicators li.active {  background: rgba(255, 0, 0, 0.5);  margin-left: 20px;  }
+h2 > span {  display: inline-block;  width: 12px;  height: 12px;  border-radius: 12px;  background: #c01920;  margin-right: 10px;  }
+.mainBox p { font-size: 14px;  font-family: Microsoft YaHei;  color: #666666;  text-indent: 2em;  padding-left: 5px;  padding-right: 5px;  }
+.mainBox { width: auto;  height: 1300px;margin-left: 120px;margin-right: 120px;}
+#container {  width: 100%;  overflow: hidden }
+.rightBox {  margin-left: 250px;  height: 100%;  float: left;  }
+/*新闻动态*/
+.ds span{ float: left;clear: both}
+.xwdt {  width: 100%;  height: 300px;clear: both ;margin-top: 70px; }
+.xwdt > span {  float: left;   font-size: 16px;  color: #c01920; padding-left: 10px;font-size: 16px  }
+.xwdt h2 {  float: left;  margin-top: 30px;  margin-bottom: 30px;  display: inline-block; margin-left: 20px }
+.xwdt p {  float: left;  margin-top: 8px; padding-right: 11% }
+.xwdt p.active {  color: #c01920;  }
+.xwdtA {  float: right;  display: inline-block;  padding-top: 36px;color: #000000;margin-left: 20px;}
+.xwdt a:hover{color: #ff0000  }
+.xw h4{padding-right: 12%;}
+.tow-2 h4{padding-right: 12%;padding-top: 40px;}
+.tow-1{float: left;width: 8%;padding-top: 70px;}
+
+.tow-2 {
+    float: left;
+    width: 60%;
+    height: 180px;
+    margin-left: 10%;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.tow-3{float: left;width: 20%;padding-top: 20px}
+.tow-3 img{height: 100%}
+.niu{margin-left: 10%;clear: both;}
+.niu a{display: inline-block;padding-top: 36px;color: #000000;margin-left: 10%;}
+.niu2{font-size: 16px;margin-left: 30%;margin-top: 10%;}
+.new{width: 80px;height: 20px;border: 1px solid #f5deb3;}
+.new h4{text-align: center;color: #ff0000;margin-top: -32px;}
+.xw h3{color: #f00;margin-left: 13%;}
+.span4 img{width: 100%;height: 100%}
+.xw{width:100%;height:auto;float: left;padding-bottom: 40px;}
+.xw2{background-color: rgba(255, 210, 135, 0.26);width: 100%;height: auto;}
+.xw4{background-color: rgba(255, 210, 135, 0.26);width: 100%;}
+
+
+/*底部*/
+.footer span {  margin-top: 40px;  font-size: 16px;  color: #c01920;  }
+.footer p {  padding-bottom: 30px;  }
+.foot {background-color: #36312d;  width: 100%;  height: 320px;  margin-top: 180px  }
+.foott1 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott2 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott3 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott4 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foot dt {  color: white;  display: inline-block;  margin-top: 30px;  font-size: 14px  }
+.foot dt img {   width: 20px;  height: 20px ;margin-top: 0; }
+.foot dt p {  font-size: 12px ;color: #ffffff ;text-align: center   }
+.foot dd {  color: #DBC59E;  padding-top: 10px;  }
+.black {  background-color: black; height: auto;  text-align: center;  }
+.black p {  color: white;  font-size: 12px;    text-align: center;  }
+.black-p1{padding-top: 20px;}
+.black-p2{padding-bottom: 30px;}
+/*媒体查询*/
+@media (min-width: 1024px) and (max-width: 1960px) {
+    .markBox img{ width: 100%;height: 270px}
+    .backcolor{    width: 84%;  height: 270px;  margin-right: 9px;  position: absolute;  left: 250px;  right: 250px;  overflow: hidden;}
+    .rightBox {  margin-top: -56px  }
+    .black{display: block;margin-top: auto}
+     img{ margin-top: -40px;}
+    .xwdt img{margin-top: 0;}
+    .wx img{margin-top: 0;}
+    .foot{width:100%;}
+}
+@media (min-width: 768px) and  (max-width: 1024px) {
+    .rightBox {  width: 80%;  height: auto;  margin-left: 10%;margin-top: 70px }
+    .mainBox { width: auto;  height: 1300px;margin-left: 10px;margin-right: 10px;}
+    .foot{width:100%;margin-top: 50px;}
+    .backcolor{    width: 84%;  height: 300px;  margin-right: 9px;  position: absolute;  overflow: hidden;}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .span3 img {  width: 100%;  height: auto  }
+    .rightBox {  width: 98%;  height: auto;  margin-left: 1% ;margin-top: 53px; }
+    .mainBox{margin: 0 15px;}
+    .black{display: block;margin-top: 200px;}
+    .liBoxIn {  margin-bottom: 10px  }
+    #hheb {  width: 100%;  height: auto;  }
+    #navbar {  display: block;  width: 100%;  height: 40px;  margin-top: 20px;  margin-bottom: 10px  }
+    .six img {  width: 100%;  height: auto }
+    .foot {  display: none  }
+    .main-im {  display: none  }
+    .layer-1 {  display: none  }
+    .tow-1 {  display: none  }
+    .tow-2 {  width: 100% ;margin-left: 5%; }
+    .tow-3 {  display: none  }
+    .xw {  margin-bottom: 30px;  }
+    .span4 {  width: 100%;  height: auto  }
+    .span4 img {  width: 100%  }
+    .span4 img {  width: 100%  }
+    .backcolor{ display: none   }
+    .xw{ margin-top: 20px;  }
+}
+
+@media (max-width: 320px){
+    .black {  display: block;  margin-top: 330px;  }
+}
+
+
+
+
+

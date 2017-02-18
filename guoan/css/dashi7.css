@@ -1,0 +1,138 @@
+body, html {  height: 100%;  font-size: 62.5%; font-size: 14px;   }
+body, html, p, h2, h3, h4 {  margin: 0;  padding: 0;  }
+ul {  margin: 0;  padding: 0;  list-style: none;  }
+h2 {  font-size: 24px;  color: #333;  font-family: Microsoft YaHei;  margin-bottom: 40px;    }
+a { text-decoration: none;  }
+.img-qq {margin-top: 0;}
+#allmap {  width: 100%;  height: 400px;  overflow: hidden;  margin: 0;  font-family: "微软雅黑";  }
+.markList {  position: relative;  overflow: hidden;  }
+.markList:hover .mark {  top: 0;  }
+.mark {  height: 100%;  position: absolute;  width: 100%;  top: -200%;  background: rgba(0, 0, 0, 0.5);  transition: top 1s;  color: #fff;  text-align: center;  line-height: 100%;  }
+.mark p {  padding-top: 50%;  color: #fff;  text-align: center;  }
+.markBox {  position: relative;  }
+.markBox img{ width: 100%;}
+.spanA {  overflow: hidden;  width: 100%;  height: auto;  }
+.spanA img:hover {  transform: scale(1.3);  transition: 0.5s ease;  }
+#container {  width: 100%;  overflow: hidden  }
+.rightBox {  margin-left: 250px;  height: 100%;  float: left;  }
+.leftBox {  width: 250px;  height: 100%;  float: left;  position: fixed;  border-right: 1px solid #DBC59E;  }
+.carousel-indicators {  position: absolute;  bottom: 10px;  left: 70%;  }
+.carousel-indicators li {  margin-left: 20px; }
+.carousel-control.left {  padding-top: -200px  }
+.carousel-control.right {  padding-top: -200px  }
+#myCarousel {  padding-top: -200px;  }
+
+.carousel-indicators li.active {  background: rgba(255, 0, 0, 0.5);  margin-left: 20px; }
+h2 > span {  display: inline-block;  width: 12px;  height: 12px;  border-radius: 12px;  background: #c01920;  margin-right: 10px;  }
+.mainBox p {  font-size: 14px;  font-family: Microsoft YaHei;  color: #666666;  text-indent: 2em;  padding-left: 5px;  padding-right: 5px;  }
+.mainBox {  margin-left: 120px;  margin-right: 120px  }
+.jxts {  width: 100%;  height: auto; clear: both }
+.jxts > span {  float: right;  margin-top: 40px;  font-size: 16px;  color: #c01920;  }
+.jxts h2 {  float: left;   margin-bottom: 40px;  display: inline-block;  }
+.jxts p {   margin-top: 30px;padding:0 10px; width: 100%;height: 100% ;}
+.jxts p.active {  color: #c01920;  }
+.jxts a {  float: right;  display: inline-block;  padding-top: 36px; }
+.jxts h3{font-size: 18px; color: red;padding-top: 15px;padding-left: 10px}
+.liBox {  margin-bottom: 40px;  clear: both; height: 180px; }
+.jxtsbox { background-color: #f7f3ed; width: 100%;height: 100%;  }
+.jxtsbox img {  width: 100%;  height: 200px  }
+.sjx1{margin-left: 44%;display: none}
+.sjx2{margin-left: 51%;display: none}
+.sjx3{margin-left: 44%;display: none}
+.sjx4{margin-left: 44%;display: none}
+.qzjs h2{margin-top: 125px;}
+/*特效大师*/
+.huanjing {  width: 100%;  height: 500px; clear: both;margin-top: 30px; }
+.huanjing > span {  float: right;  margin-top: 40px;  font-size: 16px;  color: #c01920;  }
+.huanjing h2 {  float: left;  margin-top: 30px;  margin-bottom: 30px;  display: inline-block;  }
+
+.huanjing p.active {  color: #c01920;  }
+.huanjing a {  float: right;  display: inline-block;  padding-top: 36px;  }
+.span3>h3{font-size: 18px;color: #ff0000;text-align: center;padding-top: 10px;  }
+.span3>p{font-size: 14px;color: #DBC59E;text-align: center;border-top: 1px solid #ff0000;width: 150px;margin: 0 auto;padding-top: 10px;  }
+
+.ysds{ width: 100%;height: auto;margin-top: 70px;}
+.kuang{clear: both;background-color: #d60211;    margin-top: -210px;width: 100%;height: 185px;display: none;border-radius: 10px;}
+.kuang h3{text-align: center;color: #ffffff;font-size: 24px;padding-top: 10px;  }
+.kuang p{color: #ffffff;font-size: 14px;padding-top: 10px;padding-bottom: 20px;}
+.qzjs{margin-top: 70px;}
+.qzjs h2{margin-bottom: 20px;}
+/*phone*/
+.phonestyle{display: none}
+
+
+/*底部*/
+.footer span {  margin-top: 40px;  font-size: 16px;  color: #c01920;  }
+.footer p {  padding-bottom: 30px;  }
+.foot {  background: url("../images/footer2%20(2).jpg") no-repeat;  width: 100%;  height: 320px;  margin-top: 40px  }
+.foott1 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott2 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott3 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott4 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+dt {  color: white;  display: inline-block;  margin-top: 30px;  font-size: 14px  }
+dt img {  width: 20px;  height: 20px ;margin-top: 0; }
+dt p {  font-size: 12px ;color: #ffffff;text-align: center  }
+dd {  color: #DBC59E;  padding-top: 10px;  }
+.black {  background-color: black;  height: auto;  text-align: center;  }
+.black p {  color: white;  font-size: 12px ;    text-align: center; }
+.containerB{display: none}
+.black-p1{padding-top: 20px;}
+.black-p2{padding-bottom: 30px;}
+/*媒体查询*/
+@media (min-width: 1024px) and (max-width: 1960px) {
+    .span3>img{margin-top: 10px;}
+    .wx img{margin-top: 0;}
+    .huanjing img{margin-top: 0;}
+    .markBox img{ width: 100%;height: 270px}
+    .eight img{width: 100%}
+    .backcolor{    width: 84%; height: 215px; margin-right: 9px;position: absolute;left: 250px;
+        right: 250px; overflow: hidden;}
+    .rightBox {  margin-top: -56px  }
+    .wx img{margin-top: 0;}
+    .liBoxIn{ width: 100%;height: 250px;!important;}
+    .foot{margin-top: 150px;}
+}
+@media (min-width: 768px) and  (max-width: 1024px) {
+    .rightBox {  width: 80%;  height: auto;  margin-left: 10%;margin-top: 70px }
+    img{ margin-top: 20px;}
+
+}
+
+@media (min-width: 310px) and (max-width: 768px) {
+    img{ margin-top: 20px;}
+    .hezuo {  display: none  }
+    .six img {  margin-top: 10px  }
+    .span3 img {  width: 100%;  height: auto  }
+    .liBox img {  margin-top: 10px  }
+    .rightBox {  width: 100%;  height: auto;  margin-left: 1% ;margin-top: 53px; }
+    .mainBox{margin: 0 15px;}
+    .foot{display: none}
+    .jiangshi a{display: none}
+    .main-im{display: none}
+    .layer-1{display: none}
+   .phonestyle{display: block}
+   .carousel-indicators li{display: none}
+   .liBoxA{display: none}
+        .kuang1{display: none}
+        .kuang2{display: none}
+        .kuang3{display: none}
+        .kuang4{display: none}
+        #myTab{clear: both}
+        .item img{ margin-top: 76px;}
+        .liBox2 div{width: 44%;float: left;margin-left: 10px;}
+        #myTab h3{text-align: center;font-size: 16px;}
+        #myTab p{text-align: center;font-size: 12px;}
+        #myTab img{width: 100%;}
+        #myTab li{width: 50%;float: left}
+        .rightBox {  width: 100%;  height: auto;  margin-top: -5px; }
+        .huanjing {width: 100%;height: auto;margin: 0 auto;}
+        #home h3{background-color: red;color: white;text-align: center}
+        #home p{color: white;background-color: red;}
+        #ios h3{background-color: red;color: white;text-align: center}
+        #ios p{color: white;background-color: red;}
+        .span3 {margin-top: 20px;}
+        .liBox{height: auto;}
+
+}
+
+

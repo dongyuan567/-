@@ -1,0 +1,91 @@
+﻿
+@media screen and (max-width:1024px) {
+	.toggle { display: block; }
+	.header { width: 50%; position: fixed; right: -100%; top: 0; z-index: 99; left: auto; border-left: 1px solid rgba(0, 0, 0, 0.1); }
+
+	.header-support { position: fixed; top: 0; left: 0; background: #fff; height: 70px; width: 100%; z-index: 98; box-sizing: border-box; border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+
+	/* FOOTER */
+	.footer-nav { padding: 0; }
+	.footer-nav .cell { display: block; padding-left: 60px; box-sizing: border-box; }
+	.footer-nav .cell:first-child { padding: 0; }
+	.footer .inner:first-child { width: 100%; }
+	.footer .nav-other { padding: 20px 0 20px 60px; }
+	.footer h3 { margin-top: 20px; padding-top: 20px; border-top: 1px solid rgba(254, 248, 238, 0.2); }
+	.footer .share-box { display: none !important; }
+	.footer .put-lang { margin-top: 20px; }
+	.footer .body { padding: 50px 20px; }
+
+	/* SUBPEGAS */
+	.subpages-header { margin-top: 70px; }
+	.sort-body { border: none; }
+
+	/* MAP */
+	.map-inner-full, .map-inner, .map-body { padding: 0; }
+	.accsess-body { padding: 0 20px 0 0; }
+	.map-popup-body img { width: auto; height: 100%; }
+	.map-popup-body { overflow: auto; -webkit-overflow-scrolling: touch; }
+	.map-popup-ol { padding: 70px; }
+
+	/* CONTEST */
+	.tab-header a { line-height: 70px; height: 70px; }
+	.single-table-left { padding-right: 20px; }
+
+	/* SINGLE */
+	.single-header { padding: 30px 0 0 0; }
+	.single-info { width: 100%; display: -webkit-flex; display: -ms-flexbox; display: flex; vertical-align: top; border: none; }
+	.single-info li { float: none !important; display: table-cell; vertical-align: top; vertical-align: middle; box-sizing: border-box; padding: 0 10px; }
+	.single-info li.si-2 { width: 50px; margin-left: 10px; }
+	.single-info li .i { font-size: 2.3rem !important; padding: 0 10px 0 0 !important; }
+	.single-info li.si-1 .t { font-size: 1.2rem; }
+	.single-info li.si-1 span { vertical-align: middle; line-height: 1.5em; }
+	.single-footer { padding: 0; }
+	.single-footer a { display: block; padding: 0 10px; }
+	.single-footer-ol { padding: 0 10px; }
+	.single-footer-title { padding: 0 10px; }
+	.single-table-left .sub { margin: 10px 0 0 0; }
+	.single-info-ol .in { width: auto; }
+	.mCSB_horizontal.mCSB_inside>.mCSB_container { margin-right: 0; margin-bottom: 8px; }
+	.panelist li { width: 50%; padding: 10px; }
+	.panelist { padding: 0; }
+	.sort-header .in { height: 70px; }
+	.sort-header .i { line-height: 70px; -webkit-transform: translate(0px, -2px); -ms-transform: translate(0px, -2px); transform: translate(0px, -2px); }
+	.sort-header .inputs input { height: 70px; line-height: 70px; }
+	.sort-header .inputs input, .sort-pulldowns-header .t { font-size: 1.3rem; }
+	.subheader h2, .subheader h3 { font-size: 2.2rem; }
+	.sort-header .i { width: 70px; }
+	.sort-header .inputs { padding: 0 70px; }
+	.anchor-header a { padding: 15px 0; }
+	.anchor-header a > span { font-size: 1.3rem }
+	.tt_obj { padding: 0; }
+
+
+	/* MENU */
+	.header { right: 0; -webkit-transform: translate(100%, 0); -ms-transform: translate(100%, 0); transform: translate(100%, 0); transition: all 0.4s
+	cubic-bezier(0.42, 0.02, 0.33, 1.05); }
+	.header-support, .window { transition: all 0.4s
+	cubic-bezier(0.42, 0.02, 0.33, 1.05); }
+	.is_open .header { -webkit-transform: translate(0, 0); -ms-transform: translate(0, 0); transform: translate(0, 0); }
+	.is_open .header-support, .is_open .window { -webkit-transform: translate(-50%, 0); -ms-transform: translate(-50%, 0); transform: translate(-50%, 0); }
+	.toggle, .toggle span { transition: all 0.4s
+	cubic-bezier(0.42, 0.02, 0.33, 1.05); }
+	.is_open .toggle span.t2 { opacity: 0; }
+	.is_open .toggle { -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); transform: rotate(45deg); }
+	.is_open .toggle span.t1 { -webkit-transform: translate(0px, 6px) rotate(180deg); -ms-transform: translate(0px, 6px) rotate(180deg); transform: translate(0px, 6px) rotate(180deg); }
+	.is_open .toggle span.t3 { -webkit-transform: translate(0px, -6px) rotate(-90deg); -ms-transform: translate(0px, -6px) rotate(-90deg); transform: translate(0px, -6px) rotate(-90deg); }
+}
+
+/* END TABLET */
+
+/* MOBILE */
+@media screen and (max-width:680px) {
+
+	/* 開催概要 */
+
+	.header { width: 100%; overflow: auto; -webkit-overflow-scrolling: touch; }
+	.header .in { height: auto; }
+
+
+
+}
+

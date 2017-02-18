@@ -1,0 +1,153 @@
+body, html {  height: 100%;  font-size: 62.5% ;font-size: 14px; }
+body, html, p, h2, h3, h4 {  margin: 0;  padding: 0;  }
+ul {  margin: 0;  padding: 0;  list-style: none;  }
+h2 {  font-size: 24px;  color: #333;  font-family: Microsoft YaHei;  margin-bottom: 40px;  margin-top: 60px;  }
+a { text-decoration: none;  }
+.img-qq {margin-top: 0;}
+#allmap {  width: 100%;  height: 400px;  overflow: hidden;  margin: 0;  font-family: "微软雅黑";  }
+.markList {  position: relative;  overflow: hidden;  }
+.markList:hover .mark {  top: 0;  }
+.mark {  height: 100%;  position: absolute;  width: 100%;  top: -200%;  background: rgba(0, 0, 0, 0.5);  transition: top 1s;  color: #fff;  text-align: center;  line-height: 100%;  }
+.mark p {  padding-top: 50%;  color: #fff;  text-align: center;  }
+.markBox {  position: relative;  }
+.markBox img{ width: 100%;}
+.spanA {  overflow: hidden;  width: 100%;  height: auto;  }
+.spanA img:hover {  transform: scale(1.3);  transition: 0.5s ease;  }
+#container {  width: 100%;  overflow: hidden  }
+.rightBox {  margin-left: 250px;  height: 100%;  float: left;  }
+.leftBox {  width: 250px;  height: 100%;  float: left;  position: fixed;  border-right: 1px solid #DBC59E;  }
+.carousel-indicators {  position: absolute;  bottom: 10px;  left: 70%;  }
+.carousel-indicators li {  margin-left: 20px;  }
+.carousel-control.left {  padding-top: -200px  }
+.carousel-control.right {  padding-top: -200px  }
+#myCarousel {  padding-top: -200px;  }
+.carousel-indicators li.active {  background: rgba(255, 0, 0, 0.5); margin-left: 20px; }
+h2 > span {  display: inline-block;  width: 12px;  height: 12px;  border-radius: 12px;  background: #c01920;  margin-right: 10px;  }
+.mainBox p {  font-size: 14px;  font-family: Microsoft YaHei;  color: #666666;  text-indent: 2em;  padding-left: 5px;  padding-right: 5px;  }
+.mainBox {  margin-left: 120px;  margin-right: 120px  }
+.left-pic {  padding-left: 20px;  margin-top: -40px;  }
+/*就业保障*/
+.jybz{    margin-left: 120px;
+    margin-right: 120px;
+    width: auto;
+    margin-top: 70px;
+}
+.jybz h2{margin-left: 100px;}
+.jybz h4{color: red;font-size: 16px;text-align: center;}
+.jybz{margin-left: 20px;}
+.book{margin-left: 36%;}
+.jybz h4{margin-top: 10px;}
+.jybz1{height: auto;margin-top: 60px;width: 15%;margin-left: 8%;}
+/*就业动态*/
+.jydt{    width: auto;
+    height: auto;
+    margin-top: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    clear: both;
+margin-top: 70px;}
+.jydt h2{margin-top: 350px;}
+.jydt9{height: auto;margin-top: 20px;width: 60%}
+.jydt9 h4{display: inline-block;font-size: 18px;margin-top: 40px;}
+.p1{display: inline-block;font-size: 14px;}
+.jydt3{height: auto;margin-top: 20px;width: 30%}
+.jydt3 img{margin-top: 60px;}
+.pic9{width: 60%;height: 150px;margin-left: 20px;margin-top: 450px;}
+.pic-right{float: right;margin-top: -150px;margin-right: 50px;}
+.pic-right img{margin-top: 0;}
+/*就业数据*/
+.jysj{width: auto;height: auto;margin-top: 120px;margin-left: 120px;margin-right: 120px;}
+.jysj6{ width: 45%;margin-top: 60px;}
+.jysj6 h4{ width: 45%;margin-top: -15px;}
+.jysj img{margin-top: 40px;width: 96%;margin-left: 20px;}
+/*.jysj h2{ margin-left: 20px;}*/
+/*海外交流*/
+.hwjl h2{ margin-left: 20px;padding-top: 40px;}
+.hwjl{  margin-left: 120px;  margin-right: 120px;  background-color: #fcf9f4;    margin-top: 70px;
+    min-height: 1200px;
+}
+.jl{clear: both;}
+.jl img{ margin-top: 40px;}
+.jl p{text-align: center;}
+.yx{width: 100%;height: auto;clear:both;}
+.yx3{margin-right: 30px;}
+.yx3 img{margin-top: 40px;  height: 80px;width: 100%; }
+
+.yx3 p{text-align: center;}
+.yx p{text-align: center;}
+.xq{clear: both;}
+
+/*在线报名*/
+.zxbm {  width: 100%;  height: 180px; clear: both ;margin-top: 70px;}
+.zxbm > span {  margin-top: 40px;  font-size: 16px;  color: #c01920;  }
+.zxbm h2 {  float: left;  margin-top: 30px;   display: inline-block;  }
+.zxbm p { clear: both;float: left;  margin-top: 30px;font-size: 16px;margin-left: -18px;  }
+.zxbm p.active {  color: #c01920;  }
+.zxbm a {  float: right;  display: inline-block;    }
+.zxbm a:hover{color: #ff0000  }
+.zxbm img{margin-top: 0;}
+.zuobian{float: left;clear: both;}
+.zuobian a{margin-left: 18px;margin-top: 20px;}
+
+footer span {  margin-top: 40px;  font-size: 16px;  color: #c01920;  }
+.footer p {  padding-bottom: 30px;  }
+.foot {  background: url("../images/footer2%20(2).jpg") no-repeat;  width: 100%;  height: 320px;  margin-top: 40px  }
+.foott1 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott2 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott3 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+.foott4 {  width: 25%;  height: 300px;  float: left;  text-align: center;  }
+dt {  color: white;  display: inline-block;  margin-top: 30px;  font-size: 14px  }
+dt img {   width: 20px;  height: 20px ;margin-top: 0; }
+dt p {  font-size: 12px ;color: #ffffff;text-align: center  }
+dd {  color: #DBC59E;  padding-top: 10px;  }
+.black {  background-color: black;  height: auto;  text-align: center;  }
+.black p {  color: white;  font-size: 12px ;    text-align: center; }
+.black-p1{padding-top: 20px;}
+.black-p2{padding-bottom: 30px;}
+/*媒体查询*/
+@media (min-width: 960px) and (max-width: 1960px) {
+    .markBox img{ width: 100%;height: 270px}
+    .eight img{width: 100%}
+    .backcolor{    width: 84%; height: 215px; margin-right: 9px;position: absolute;left: 250px;
+        right: 250px; overflow: hidden;}
+    .rightBox {  margin-top: -56px  }
+    /*img{ margin-top: -40px;}*/
+    .wx img{margin-top: 0;}
+}
+@media (min-width: 768px) and  (max-width: 1024px) {
+    .rightBox {  width: 80%;  height: auto;  margin-left: 10%;margin-top: 70px }
+    img{ margin-top: 20px;}
+    .jydt{margin-top: 200px;}
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    img{ margin-top: 20px;}
+    .mainBox {margin: 0 15px;}
+    .jybz {margin: 0 15px;}
+    .jydt {margin: 0 15px;}
+    .jysj {margin: 0 15px;}
+    .hwjl{margin: 0 15px;}
+    .hezuo {  display: none  }
+    .six img {  margin-top: 10px  }
+    .span3 img {  width: 100%;  height: auto  }
+    .liBox img {  margin-top: 10px  }
+    .rightBox {  width: 100%;  height: auto;  margin-left: 1% ;margin-top: 53px; }
+    .markBox img{ width: 100%;}
+    .markBox{margin-top: -10px}
+    .liBoxIn{margin-bottom: 10px}
+    #hheb{ width: 100%;  height: auto;  }
+    #navbar {  display: block;  width: 100%;  height: 40px;  margin-top: 20px;margin-bottom: 10px }
+    /*#navbar img{height: 30px;}*/
+    .six img {  width: 100%;  height: auto  }
+    .foot{display: none}
+    .three img{display: none}
+    .tow{ width: 100%}
+    .heb{ width: 100%}
+    .tow p{ text-align: center;}
+    .carousel-indicators{display: none}
+    .jiangshi a{display: none}
+    .main-im{display: none}
+    .layer-1{display: none}
+}
+
+
